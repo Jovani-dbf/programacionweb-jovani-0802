@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programaci&oacute;n Web | Objetos en HTML</title>
+</head>
+<body>
+    <div id="main-content">
+        <h1>Implementaci&oacute;n de Objetos en HTML</h1>
+        <h2>
+            Son &uacute;tilies para implementar elementos externos
+            como: Im&aacute;genes, Videos, P&aacute;ginas. En un archivo web
+        </h2>
+        <hr>
+        <section class="object-tag">
+            <object data="tabla.html" width="500" height="350"></object>
+        </section>
+
+        <br>
+        <h2>Implementaci&oacute;n de video en HTML</h2>
+        <section class="video-tag">
+            <video width="600" height="300" controls>
+                <source src="https://www.youtube.com/watch?v=U8hqJJSZZPg" type="video/mp4">
+                <source src="https://www.youtube.com/watch?v=U8hqJJSZZPg" type="video/webm">
+                El navegador no permite el elemento para video
+            </video>
+            <iframe 
+                src="https://www.youtube.com/watch?v=U8hqJJSZZPg"
+                width="600"
+                height="300"
+                frameborder="0"
+            ></iframe>
+        </section>
+        <section id="tag-audio">
+            <audio src="ruta" controls>
+                <source src="ruta" type="audio/mpeg">
+                El navegador no soporta el elemento para audio
+            </audio>
+        </section>
+    </div>
+</body>
+</html>

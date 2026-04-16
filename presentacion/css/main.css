@@ -1,0 +1,17 @@
+/*Reseteo Universal*/
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-content{
+    border: 2px solid #03c8ae;
+    width: 75%;
+    margin: 0px auto;
+    margin-top: 30px; 
+    padding: 15px;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 10px 5px 15px #8b218d;
+    max-width: 100%;
+}

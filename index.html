@@ -8,25 +8,144 @@
     </head>
     <body>
         <div id="main-content">
-            <h1>
-                Curso de Programación Web - TESJo
-            </h1>
+            <div id="title-tag">
+                <h1>
+                    Curso de Programación Web - TESJo
+                </h1>
+                <hr>
+                <h2>
+                    Jovani del Boque Florentino - ISC 
+                </h2>
+                <h3>
+                    Unidad 2. HMLT, XML y CSS
+                </h3>
+                <h4>
+                    Grupo: IC-0802
+                </h4>
+                <h5>
+                    Turno: Matutino
+                </h5>
+                <h6>
+                    Aula: N09
+                </h6>
+            </div>
             <hr>
-            <h2>
-                Jovani del Boque Florentino - ISC 
-            </h2>
-            <h3>
-                Unidad 2. HMLT, XML y CSS
-            </h3>
-            <h4>
-                Grupo: IC-0802
-            </h4>
-            <h5>
-                Turno: Matutino
-            </h5>
-            <h6>
-                Aula: N09
-            </h6>
+            <h2>Elementos B&aacute;sicos <code>HTML</code></h2>
+            <hr>
+            <div id="text-tag">
+                <h3>Tags de texto</h3>
+                <section id="p-tag">
+                    <h4>p: <code>&lt;p&gt; contenido &lt;&#47;p&gt;</code></h4>
+                    <p>
+                        Commodo ullamco voluptate eiusmod aliquip eiusmod nisi nulla deserunt. Minim reprehenderit ad aliquip mollit est sunt fugiat laboris. Labore culpa excepteur do in culpa nulla consectetur duis amet pariatur.
+                    </p>
+                </section>
+                <section id="pre-tag">
+                    <h4>pre: <code>&lt;pre&gt; contenido &lt;&#47;pre&gt;</code></h4>
+                    <pre>
+                        Commodo ullamco voluptate eiusmod aliquip eiusmod nisi nulla deserunt. Minim reprehenderit ad aliquip mollit est sunt fugiat laboris. Labore culpa excepteur do in culpa nulla consectetur duis amet pariatur.
+                    </pre>
+                </section>
+            </div>
+            <hr>
+            <div id="text-format-tag">
+                <h3>Tags de texto con formato</h3>
+                <section id="b-tag">
+                    <h4><code>&lt;b&gt; contenido &lt;&#47;b&gt;</code></h4>
+                    <b>Uso de la etiqueta b</b>
+                </section>
+                <section id="em-tag">
+                    <h4><code>&lt;em&gt; contenido &lt;&#47;em&gt;</code></h4>
+                    <em>Uso de la etiqueta em</em>
+                </section>
+            </div>
+            <hr>
+            <div id="link-tag">
+                <h3>V&iacute;nculos</h3>
+                <section id="a-tag">
+                    <h4>a: <code>&lt;a&gt; texto de enlace &lt;&#47;a&gt;</code></h4>
+                    <a href="http:google.com" target="_blank">Este texto es un enlace</a>
+                </section>
+            </div>
+            <hr>
+            <div id="list-tag">
+                <h3>Listas</h3>
+                <h4>Listas Ordenas</h4>
+                <section id="ol-tag">
+                    <h4> ol (order list) <code>&lt;ol&gt; &lt;li&gt; Items &lt;&#47;li&gt; &lt;&#47;ol&gt;</code></h4>
+                    <ol type="1" start="3" reversed>
+                        <li>Manzana</li>
+                        <li>Pera 2</li>
+                        <li>Naranja 3</li>
+                    </ol>
+
+                    <ol type="A">
+                        <li><a href="">Opci&oacute;n 1</a></li>
+                        <li><a href="">Opci&oacute;n 2</a></li>
+                        <li><a href="">Opci&oacute;n 3</a></li>
+                        <li><a href="">Opci&oacute;n 4</a></li>
+                        <li><a href="">Opci&oacute;n 5</a></li>
+                    </ol>
+                </section>
+
+                <h4>Listas Desordenadas</h4>
+                <section id="ul-tag">
+                    <h4>ul (unorder list) <code>&lt;ul&gt; &lt;li&gt; Items &lt;&#47;li&gt; &lt;&#47;ul&gt;</code></h4>
+                    <ul>
+                        <li>Basketball</li>
+                        <li>Football</li>
+                        <li>Volieball</li>
+                    </ul>
+                    <ul type="circle">
+                        <li><a href="http://" target="_blank">Rojo</a></li>
+                        <li><a href="http://" target="_blank">Azul</a></li>
+                        <li><a href="http://" target="_blank">Gris</a></li>
+                        <li><a href="http://" target="_blank">Blanco</a></li>
+                        <li><a href="http://" target="_blank">Morado</a></li>
+                    </ult>
+                </section>
+            </div>
+            <hr>
+            <div id="tabla-tag">
+                <h4>Tablas en HTML</h4>
+                <h4>table: 
+                    <code>
+                        &lt;table&gt; &lt;&#47;table&gt;
+                        &lt;thead&gt; &lt;&#47;thead&gt;
+                        &lt;tbody&gt; &lt;&#47;tbody&gt;
+                        &lt;tfoot&gt; &lt;&#47;tfoot&gt;
+                        &lt;caption&gt; &lt;&#47;caption&gt;
+                        &lt;th&gt; &lt;&#47;th&gt;
+                        &lt;tr&gt; &lt;&#47;tr&gt;
+                        &lt;td&gt; &lt;&#47;td&gt;
+                    </code>
+                </h4>
+                <section id="table-tag">
+                    Click <a href="tabla.html" target="_blank">aqu&iacute;</a> para ver tabla 
+                </section>
+            </div>
+            <hr>
+            <div id="obj-tag">
+                <h4>Objetos</h4>
+                <h4>
+                    <code>&lt;object&gt;  &lt;&#47;object&gt;</code>
+                </h4>
+                <section id="object-tag">
+                    <span>Ir al ejemplo de <a href="objeto.html" target="_blank">objeto</a></span>
+                </section>
+            </div>
+            <hr>
+            <div id="form-tag">
+                <h4>Formularios</h4>
+                <h4>
+                    <code>
+                        &lt;form&gt; &lt&#47;form&gt;
+                    </code>
+                </h4>
+                <section id="formulario-tag">
+                    <a href="formulario.html">Ir</a> a la secci&oacute;n de formularios
+                </section>
+            </div>
         </div>
     </body>
 </html>

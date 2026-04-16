@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programaci&oacute;n Web | Formularios en HTML</title>
+</head>
+<body>
+    <div id="main-content">
+        <h1>Implementaci&oacute;n de Formularios en HTML</h1>
+        <h2>
+            Permiten la interacci&oacute;n con el usuario, solicitando informaci&oacute;n
+        </h2>
+        <hr>
+        <section class="form-tag">
+            <form action="url" method="post" class="formulario">
+                <fieldset>
+                    <legend>Formulario en html - Obtener datos</legend>
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" required placeholder="Ejemplo: Arturo López Andres" onkeyup="BucarCliente(this.value)" /> 
+                    <br><br>
+                    <label for="clave">Contrase&ntilde;a</label>
+                    <input type="password" name="clave" id="clave" required disabled> 
+                    <br><br>
+                    <label for="edad">Edad</label>
+                    <input type="number" name="edad" id="edad" max="90" min="18" step="2" value="18" readonly>
+                    <br><br>
+                    <label for="municipio">Municipio</label>
+                    <select id="municipio" required>
+                        <option>Seleccione su Municipio</option>
+                        <option value="1">Jocotitl&aacute;n</option>
+                        <option value="2">San Felipe</option>
+                        <option value="3">Ixtlahuca</option>
+                        <option value="4" selected>Jiquipilco</option>
+                    </select>
+                    <br><br>
+
+                    <label for="habilidades">Habilidades</label>
+                    <select name="" id="habilidades" multiple>
+                        <option value="0">Selecciones sus Habilidades</option>
+                        <option value="1">Dise&ntilde;o</option>
+                        <option value="2">Programaci&oacute;n</option>
+                        <option value="3">Seguridad Inform&aacute;tica</option>
+                    </select>
+                    <br><br>
+                    <label for="correo">Correo</label>
+                    <input type="email" name="correo" id="correo" placeholder="usuario@dominio.ext" autofocus>
+                    <br><br>
+                    <label for="nacieminto">Fecha de Nacimiento</label>
+                    <input type="date" name="" id="nacieminto" min="2000-01-01" max="2002-01-01" value="12/12/2001">
+                    <br><br>
+                    Adjunta Imagen <input type="file" name="" id="">
+                    <br><br>
+                    Indique su(s) deporte favorito
+                    Tenis <input type="checkbox" name="deporte" id="" value="1">
+                    Nataci&oacute;n <input type="checkbox" name=deporte id="" value="2">
+                    Tiro con Arco <input type="checkbox" name="deporte" id="" value="3">
+                    <br><br>
+                    Seleccione su genero: 
+                    Mujer <input type="radio" name="genero" id="" value="1">
+                    Hombre <input type="radio" name="genero" id="" value="2">
+                    <br><br>
+                    Mensaje <br>
+                    <textarea name="" id="" cols="30" rows="5"></textarea>
+                    <br><br>
+                    Seleccione un Color <input type="color" name="" id="">
+                    <br><br>
+                    <input type="submit" value="Enviar" />
+                    <input type="button" value="Cerrar" onclick="ejemplo()" />
+                    <input type="reset" value="Borrar Datos del Formulario" />
+                </fieldset>
+            </form> 
+        </section>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
